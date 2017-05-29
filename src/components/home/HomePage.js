@@ -1,5 +1,5 @@
 import  React from  'react';
-import  {link} from  'react-router';
+import  {Link} from  'react-router';
 
 export default  class HomePage extends  React.Component {
 
@@ -7,8 +7,8 @@ export default  class HomePage extends  React.Component {
     return (
     <div className="jumbotron">
       <h1>Administration Redux</h1>
-      <p>We specialize in blablabla</p>
-      <link to="about" className="btn btn-primary btn-lg"> learn more </link>
+      <p>React, Redux and React Router in ES6 for ultra-resonsive web apps</p>
+      <Link to="about" className="btn btn-primary btn-lg"> Learn more </Link>
     </div>
     );
   }
